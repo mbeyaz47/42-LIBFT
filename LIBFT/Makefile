@@ -6,7 +6,7 @@
 #    By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/08 13:05:02 by mubeyaz           #+#    #+#              #
-#    Updated: 2023/07/12 18:15:43 by mubeyaz          ###   ########.fr        #
+#    Updated: 2023/07/12 18:38:39 by mubeyaz          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,6 +44,8 @@ SRCS			= ft_isdigit.c \
 					ft_putstr_fd.c \
 					ft_putendl_fd.c \
 					ft_calloc.c \
+					ft_putnbr_fd.c \
+					ft_itoa.c \
 					
 
 OBJS			= $(SRCS:%.c=%.o)
