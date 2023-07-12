@@ -1,45 +1,49 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/05 15:53:11 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/05 15:55:21 by mubeyaz          ###   ########.fr       */
+/*   Created: 2023/07/12 15:27:40 by mubeyaz           #+#    #+#             */
+/*   Updated: 2023/07/12 15:27:41 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	int	i;
+	unsigned int	i;
 
+	if (!s)
+		return ;
 	i = 0;
 	while (s[i] != '\0')
 	{
-		if (s[i] == (char)c)
-			return ((char *)s);
-		s++;
+		f(i, s + i);
+		i++;
 	}
-	if (*s == (char)c)
-		return ((char *)s);
-	return (NULL);
 }
 
 /*
-int	main(void)
+// Örnek işlev: Elemanları büyük harfe dönüştüren işlev
+void convertToUpper(unsigned int index, char *c)
 {
-	const char	*str;
-	char		*result;
+	if (*c >= 'a' && *c <= 'z')
+		*c = *c - 'a' + 'A';
+}
 
-	str = "Hllo, Worldfje!";
-	result = ft_strchr(str, 'e');
-	if (result != NULL)
-		printf("Found at index: %ld\n", result - str);
-	else
-		printf("Character not found\n");
-	return (0);
+int main()
+{
+	char str[] = "hello world";
+	printf("Before: %s\n", str);
+	
+	ft_striteri(str, &convertToUpper);
+	
+	printf("After: %s\n", str);
+	
+	return 0;
 }
 */

@@ -1,45 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/05 15:53:11 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/05 15:55:21 by mubeyaz          ###   ########.fr       */
+/*   Created: 2023/07/10 17:10:35 by mubeyaz           #+#    #+#             */
+/*   Updated: 2023/07/10 17:10:36 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strtrim(char const *s1, char const *set)
 {
-	int	i;
+	size_t	i;
 
-	i = 0;
-	while (s[i] != '\0')
-	{
-		if (s[i] == (char)c)
-			return ((char *)s);
-		s++;
-	}
-	if (*s == (char)c)
-		return ((char *)s);
-	return (NULL);
+	if (!s1 || !set)
+		return (0);
+	while (*s1 && ft_strchr(set, *s1))
+		s1++;
+	i = ft_strlen(s1);
+	while (i && ft_strchr(set, s1[i]))
+		i--;
+	return (ft_substr(s1, 0, i + 1));
 }
 
 /*
 int	main(void)
 {
-	const char	*str;
-	char		*result;
+	char	*s1;
+	char	*set;
+	char	*trimmed;
 
-	str = "Hllo, Worldfje!";
-	result = ft_strchr(str, 'e');
-	if (result != NULL)
-		printf("Found at index: %ld\n", result - str);
-	else
-		printf("Character not found\n");
+	s1 = "abcyusufabgunab";
+	set = "abc ";
+	trimmed =ft_strtrim( "", "");
+	printf("Original string: \"%s\"\n", s1);
+	printf("Trimmed string: \"%s\"\n", trimmed);
+	free(trimmed);
 	return (0);
 }
 */

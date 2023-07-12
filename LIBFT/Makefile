@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+         #
+#    By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/08 13:05:02 by mubeyaz           #+#    #+#              #
-#    Updated: 2023/07/08 14:05:37 by mubeyaz          ###   ########.fr        #
+#    Updated: 2023/07/12 18:00:48 by mubeyaz          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,16 @@ SRCS			= ft_isdigit.c \
 					ft_strnstr.c \
 					ft_strdup.c \
 					ft_atoi.c \
+					ft_substr.c \
+					ft_strjoin.c \
+					ft_strtrim.c \
+					ft_split.c \
+					ft_strmapi.c \
+					ft_striteri.c \
+					ft_putchar_fd.c \
+					ft_putstr_fd.c \
+					ft_putendl_fd.c \
+					
 
 OBJS			= $(SRCS:%.c=%.o)
 
