@@ -29,17 +29,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/*
-int	main(void)
-{
-	char dest[20];
-	const char *src = "Hello, World!";
-
-	ft_memcpy(dest, src, 14);
-
-	printf("Kopyalanan string: %s\n", dest);
-
-	return (0);
-}
-*/

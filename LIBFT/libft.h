@@ -6,17 +6,14 @@
 /*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 12:30:21 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/12 18:38:26 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 17:22:00 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
-# include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
 # include <unistd.h>
 
 int		ft_toupper(int c);
@@ -50,7 +47,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
-void    *ft_calloc(size_t count, size_t size);
+void	*ft_calloc(size_t count, size_t size);
 void	ft_putnbr_fd(int n, int fd);
 char	*ft_itoa(int n);
 

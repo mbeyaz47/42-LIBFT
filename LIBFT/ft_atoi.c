@@ -42,16 +42,3 @@ int	ft_atoi(const char *str)
 		res = (res * 10) + (*str++ - 48);
 	return (negative * res);
 }
-
-/*
-int	main(void)
-{
-	const char	*str;
-	int			num;
-
-	str = "12345";
-	num = atoi_custom(str);
-	printf("Dönüştürülen sayı: %d\n", num);
-	return (0);
-}
-*/

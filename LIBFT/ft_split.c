@@ -58,35 +58,3 @@ char	**ft_split(char const *s, char c)
 	lst[i] = NULL;
 	return (lst);
 }
-/*
-int	main(void)
-{
-	const char	*s;
-	char		c;
-	char		**result;
-	int			i;
-
-	s = "Muhammed*Yusuf*Beyaz*1*2*3*4*5*6";
-	c = '*';
-	result = ft_split(s, c);
-	if (result == NULL)
-	{
-		printf("Ayrıştırma hatası!\n");
-		return (1);
-	}
-	i = 0;
-	while (result[i] != NULL)
-	{
-		printf("%s\n", result[i]);
-		i++;
-	}
-	i = 0;
-	while (result[i] != NULL)
-	{
-		free(result[i]);
-		i++;
-	}
-	free(result);
-	return (0);
-}
-*/

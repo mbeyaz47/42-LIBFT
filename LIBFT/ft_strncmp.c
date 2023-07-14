@@ -31,26 +31,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-/*
-int	main(void)
-{
-	const char	*str1;
-	const char	*str2;
-	int			result;
-
-	str1 = "abef";
-	str2 = "abeg";
-	result = ft_strncmp(str1, str2, 4);
-	if (result == 0)
-	{
-		printf("AYNI");
-	}
-	else if (result < 0)
-	{
-		printf("str1 > str2");
-	}
-	else
-		printf("str2 > str1");
-}
-*/

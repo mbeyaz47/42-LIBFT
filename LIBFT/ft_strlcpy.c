@@ -30,18 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (size2);
 }
-
-/*
-int	main(void)
-{
-	char	source[20];
-	char	destination[20];
-	size_t	copiedLen;
-
-	source[src] = "Merhaba, Dünya!";
-	copiedLen = ft_strlcpy(destination, source, sizeof(destination));
-	printf("Kopyalanan dizinin uzunluğu: %zu\n", copiedLen);
-	printf("Hedef dizi: %s\n", destination);
-	return (0);
-}
-*/

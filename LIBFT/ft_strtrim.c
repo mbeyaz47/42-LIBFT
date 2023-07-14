@@ -25,20 +25,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		i--;
 	return (ft_substr(s1, 0, i + 1));
 }
-
-/*
-int	main(void)
-{
-	char	*s1;
-	char	*set;
-	char	*trimmed;
-
-	s1 = "abcyusufabgunab";
-	set = "abc ";
-	trimmed =ft_strtrim( "", "");
-	printf("Original string: \"%s\"\n", s1);
-	printf("Trimmed string: \"%s\"\n", trimmed);
-	free(trimmed);
-	return (0);
-}
-*/

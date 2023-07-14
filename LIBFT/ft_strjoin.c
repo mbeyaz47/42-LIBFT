@@ -29,16 +29,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcpy(ptr + i, s2, ft_strlen(s2) + 1);
 	return (ptr);
 }
-
-/*
-int main() {
-    const char* str1 = "Muhammed";
-    const char* str2 = " Yusuf Beyaz";
-    char* result = ft_strjoin(str1, str2);
-    printf("%s\n", result);  // "Hello World!" çıktısını verir
-
-    free(result);  // Bellek serbest bırakma
-
-    return 0;
-}
-*/

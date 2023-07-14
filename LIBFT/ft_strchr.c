@@ -27,19 +27,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
-
-/*
-int	main(void)
-{
-	const char	*str;
-	char		*result;
-
-	str = "Hllo, Worldfje!";
-	result = ft_strchr(str, 'e');
-	if (result != NULL)
-		printf("Found at index: %ld\n", result - str);
-	else
-		printf("Character not found\n");
-	return (0);
-}
-*/

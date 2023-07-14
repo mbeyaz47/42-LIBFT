@@ -29,24 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/*
-int	main(void)
-{
-	const char	*str;
-	char		*s;
-
-	str = "Hello, World!";
-	s = ft_memchr(str, 'l', 13);
-	if (s != NULL)
-	{
-		printf("Karakter bulundu: %c\n", *s);
-	}
-	else
-	{
-		printf("Karakter bulunamadi.\n");
-	}
-	return (0);
-}
-
-*/

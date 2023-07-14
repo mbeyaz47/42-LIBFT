@@ -30,22 +30,3 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	ft_strlcpy(array, s + start, len + 1);
 	return (array);
 }
-
-/*
-int	main(void)
-{
-	const char	*s;
-	char		*alt_dize;
-
-	s = "Merhaba, dünya!";
-	alt_dize = ft_substr(s, 3, 20);
-	if (alt_dize == NULL)
-	{
-		printf("Alt dize oluşturulamadı.\n");
-		return (1);
-	}
-	printf("Oluşturulan alt dize: %s\n", alt_dize);
-	free(alt_dize); // Bellek serbest bırakılır.
-	return (0);
-}
-*/

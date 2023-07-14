@@ -36,18 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[dlen + i] = '\0';
 	return (value);
 }
-
-/*
-int	main(void)
-{
-	char destination[100] = "Hello, yusuf ";
-	char source[] = " Muhammed World!";
-
-	size_t resultLen = ft_strlcat(destination, source, sizeof(destination));
-
-	printf("Birleştirilen dizenin uzunluğu: %zu\n", resultLen);
-	printf("Hedef dizi: %s\n", destination);
-
-	return (0);
-}
-*/

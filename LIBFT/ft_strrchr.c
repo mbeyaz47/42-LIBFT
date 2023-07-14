@@ -29,22 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (p);
 }
-
-/*
-int	main(void)
-{
-	const char *str = "Merhaba Dünya!";
-	char *ptr = ft_strrchr(str, 'a');
-
-	if (ptr != NULL)
-	{
-		printf("Son 'a' karakteri %ld. indekste bulundu.\n", ptr - str);
-	}
-	else
-	{
-		printf("'a' karakteri bulunamadi.\n");
-	}
-
-	return (0);
-}
-*/

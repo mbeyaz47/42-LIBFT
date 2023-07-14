@@ -29,24 +29,3 @@ char	*ft_strdup(const char *s1)
 	dst[i] = '\0';
 	return (dst);
 }
-
-/*
-int	main(void)
-{
-	const char *str = "Merhaba, dünya!";
-	char *str_copy = ft_strdup(str);
-
-	if (str_copy != NULL)
-	{
-		printf("Orijinal string: %s\n", str);
-		printf("Kopyalanan string: %s\n", str_copy);
-		free(str_copy);
-	}
-	else
-	{
-		printf("Hafıza tahsisi başarısız oldu.\n");
-	}
-
-	return (0);
-}
-*/
