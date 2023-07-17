@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 15:53:11 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/05 15:55:21 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 15:06:41 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,12 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
+
+/*
+int main()
+{
+	char *str = "Muhammed";
+	char *res = ft_strchr(str,'m');
+	printf("%s", res);
+}
+*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/04 13:43:35 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/05 16:34:54 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 15:15:57 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,16 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		ft_memcpy(dstc, srcc, len);
 	return (dst);
 }
+
+/*
+int main()
+{
+    char src[] = "Hello World";
+    char dst[] = "";
+    printf("src: %s\n", src);
+    printf("dst: %s\n", dst);
+    ft_memmove(dst, src, 12);
+    printf("dst: %s\n", dst);
+    return 0;
+}
+*/

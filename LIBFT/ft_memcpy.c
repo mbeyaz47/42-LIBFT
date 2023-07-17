@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 17:37:23 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/07 18:26:34 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/13 16:35:12 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,13 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+/*
+int	main()
+{
+	char dst[100] = "**********";
+	char *src = "Muhammed Yusuf";
+	ft_memcpy(dst, src, 15);
+	printf("%s", dst);
+}
+*/

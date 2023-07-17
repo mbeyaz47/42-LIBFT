@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 13:53:43 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/08 13:53:44 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:37:16 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,12 @@ char	*ft_strdup(const char *s1)
 	dst[i] = '\0';
 	return (dst);
 }
+
+/*
+int main()
+{
+	const char *str = "Muhammed Yusuf";
+	char *dest = ft_strdup(str);
+	printf("%s", dest);
+}
+*/

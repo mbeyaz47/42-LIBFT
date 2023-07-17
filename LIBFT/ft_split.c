@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/10 19:24:39 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/10 19:29:01 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 16:23:31 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,3 +58,23 @@ char	**ft_split(char const *s, char c)
 	lst[i] = NULL;
 	return (lst);
 }
+
+/*
+int	main(void)
+{
+	const char *s;
+	char c;
+	char **res;
+	int i;
+	s = "Muhammed Yusuf Beyaz";
+	c = ' ';
+	res = ft_split(s,c);
+	i = 0;
+	while(res[i] != NULL)
+	{
+		printf("%s\n", res[i]);
+		i++;
+	}
+	return 0;
+}
+*/

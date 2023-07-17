@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 17:21:00 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/05 17:22:52 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:26:33 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,12 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
+
+/*
+int main()
+{
+	char c = 'b';
+
+	printf("%d", ft_toupper(c));
+}
+*/

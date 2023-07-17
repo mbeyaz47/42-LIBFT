@@ -31,3 +31,29 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	dest[i] = '\0';
 	return (dest);
 }
+
+/*
+// Örnek işlev: Küçük harfleri büyük harflere dönüştüren işlev
+char	f(unsigned int index, char c)
+{
+	if (c >= 'a' && c <= 'z')
+		return (c - 'a' + 'A');
+	return (c);
+}
+
+int	main(void)
+{
+	char	*input;
+	char	*result;
+
+	input = "Muhammed Yusuf Beyaz";
+	result = ft_strmapi(input, &f);
+	if (result != NULL)
+	{
+		printf("Input: %s\n", input);
+		printf("Result: %s\n", result);
+		free(result);
+	}
+	return (0);
+}
+*/

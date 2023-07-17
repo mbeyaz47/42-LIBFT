@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 16:49:58 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/08 12:23:05 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 15:19:11 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,12 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+/*
+int main()
+{
+	char *s = "Muhammed";
+	char *res = ft_memchr(s, 'm', 5);
+	printf("%s", res);
+}
+*/

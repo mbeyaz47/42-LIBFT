@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 15:33:10 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/07 15:33:11 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:52:57 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,15 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[dlen + i] = '\0';
 	return (value);
 }
+
+/*
+int main()
+{
+	char dst[200] = "Muhammed";
+	char *src = " Yusuf";
+	size_t res = ft_strlcat(dst, src, 11);
+
+	printf("%s \n", dst);
+	printf(" uzunluk : %zu", res);
+}
+*/

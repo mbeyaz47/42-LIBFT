@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/10 14:52:43 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/10 14:52:46 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:30:24 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,12 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	ft_strlcpy(array, s + start, len + 1);
 	return (array);
 }
+
+/*
+int main()
+{
+	char *s = "Muhammed";
+	char *res = ft_substr(s,2,7);
+	printf("%s", res);
+}
+*/

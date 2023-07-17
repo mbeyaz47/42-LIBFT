@@ -6,7 +6,7 @@
 /*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 15:51:21 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/13 12:43:18 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 18:35:36 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,12 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write (fd, &c, 1);
 }
+
+/*
+int main()
+{
+	char c = 'A';
+	int fd = 0;
+	ft_putchar_fd(c,fd);
+}
+*/

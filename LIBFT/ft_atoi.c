@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 12:37:33 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/08 13:04:01 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 15:25:42 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,3 +42,12 @@ int	ft_atoi(const char *str)
 		res = (res * 10) + (*str++ - 48);
 	return (negative * res);
 }
+
+/*
+int main()
+{
+	char *s = "              -21321312";
+	int n = ft_atoi(s);
+	printf("%d", n);
+}
+*/

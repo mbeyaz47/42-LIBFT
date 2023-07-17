@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 15:48:06 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/07 18:42:21 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/13 16:24:33 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,13 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+
+/*
+int	main()
+{
+	char s[100] = "Muhammed";
+	char s1[100] = "Yusuf";
+	ft_memset(s1,'M', 3);
+	printf("%s",s1);
+}
+*/

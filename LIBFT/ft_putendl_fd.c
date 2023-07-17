@@ -23,3 +23,15 @@ void	ft_putendl_fd(char *s, int fd)
 		ft_putchar_fd(s[i++], fd);
 	ft_putchar_fd('\n', fd);
 }
+
+/*
+int main()
+{
+	char *str = "Hello, World!";
+	int output_fd = 1;  // stdout dosya tanıtıcısı
+
+	ft_putendl_fd(str, output_fd);
+
+	return 0;
+}
+*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/10 15:42:25 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/10 15:42:26 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:56:55 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcpy(ptr + i, s2, ft_strlen(s2) + 1);
 	return (ptr);
 }
+
+/*
+int main()
+{
+	char *src = "Muhammed";
+	char *dst = "Yusuf";
+	char *res = ft_strjoin(dst,src);
+	printf("%s", res);
+}
+*/

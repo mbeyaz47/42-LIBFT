@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/10 17:10:35 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/10 17:10:36 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:40:47 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,13 @@ char	*ft_strtrim(char const *s1, char const *set)
 		i--;
 	return (ft_substr(s1, 0, i + 1));
 }
+
+/*
+int main()
+{
+	char *str = "Muhammed";
+	char *f = "M";
+	char *res = ft_strtrim(str, f);
+	printf("%s", res);
+}
+*/

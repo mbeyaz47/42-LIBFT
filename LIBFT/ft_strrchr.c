@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 15:52:52 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/07 15:52:54 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:45:29 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,23 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (p);
 }
+
+/*
+int	main(void)
+{
+	const char	*str;
+	char		*ptr;
+
+	str = "Merhaba Dünyaaa!";
+	ptr = ft_strrchr(str, 'a');
+	if (ptr != NULL)
+	{
+		printf("Son 'a' karakteri %ld. indekste bulundu.\n", ptr - str);
+	}
+	else
+	{
+		printf("'a' karakteri bulunamadi.\n");
+	}
+	return (0);
+}
+*/

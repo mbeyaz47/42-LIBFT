@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/03 14:14:42 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/03 14:26:10 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/13 15:47:21 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,13 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
+
+/*
+int	main()
+{
+	int len;
+	char *s = "MuhammedYusuf";
+	len = ft_strlen(s);
+	printf("%d",len);
+}
+*/

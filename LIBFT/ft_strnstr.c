@@ -6,7 +6,7 @@
 /*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 13:45:27 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/14 17:21:16 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 14:49:06 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,21 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		return ((char *)haystack);
 	while (*haystack && len >= needle_len)
 	{
-		if (*haystack == *needle && 
-			ft_strncmp(haystack, needle, needle_len) == 0)
+		if (*haystack == *needle && strncmp(haystack, needle, needle_len) == 0)
 			return ((char *)haystack);
 		haystack++;
 		len--;
 	}
 	return (0);
 }
+
+/*
+int	main(void)
+{
+	char *s = "Muhammed";
+	char *f = "u";
+	size_t len = ft_strlen(s);
+	char *res = ft_strnstr(s,f,len);
+	printf("%s",res);
+}
+*/

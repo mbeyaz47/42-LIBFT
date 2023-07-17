@@ -6,14 +6,17 @@
 /*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 12:30:21 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/14 17:22:00 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/13 12:45:46 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <stddef.h>
+# include <stdio.h>
 # include <stdlib.h>
+# include <string.h>
 # include <unistd.h>
 
 int		ft_toupper(int c);

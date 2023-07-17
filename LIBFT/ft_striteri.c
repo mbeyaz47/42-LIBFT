@@ -25,3 +25,23 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+
+/*
+// Örnek işlev: Elemanları büyük harfe dönüştüren işlev
+void	convertToUpper(unsigned int index, char *c)
+{
+	if (*c >= 'a' && *c <= 'z')
+		*c = *c - 'a' + 'A';
+}
+
+int	main(void)
+{
+	char	str[];
+
+	str[] = "hello world";
+	printf("Before: %s\n", str);
+	ft_striteri(str, &convertToUpper);
+	printf("After: %s\n", str);
+	return (0);
+}
+*/

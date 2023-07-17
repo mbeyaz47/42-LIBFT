@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mubeyaz <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 15:15:22 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/07 15:15:26 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/13 15:58:54 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,15 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (size2);
 }
+
+/*
+int main()
+{
+	char dst[100];
+	char src[] = "Hello World";
+	size_t size = 10;
+	printf("The length of the string is: %zu\n", ft_strlcpy(dst, src, size));
+	printf("The string is: %s\n", dst);
+	return 0;
+}
+*/

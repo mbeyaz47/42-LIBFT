@@ -6,7 +6,7 @@
 /*   By: mubeyaz <mubeyaz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 18:37:42 by mubeyaz           #+#    #+#             */
-/*   Updated: 2023/07/13 12:42:26 by mubeyaz          ###   ########.fr       */
+/*   Updated: 2023/07/14 16:40:45 by mubeyaz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,3 +71,16 @@ char	*ft_itoa(int n)
 	}
 	return (convert);
 }
+
+/*
+int main()
+{
+    int n;
+    char *str;
+    n = -10;
+    str = ft_itoa(n);
+    printf("str = %s\n", str);
+    free(str);
+    return 0;
+}
+*/
